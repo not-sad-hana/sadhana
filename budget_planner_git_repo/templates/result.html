@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget Result</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Budget Summary</h2>
+    <p>Income: {{ income }}</p>
+    <p>Expense: {{ expense }}</p>
+    <p>Savings: {{ savings }}</p>
+    <a href="/" style="display:block;text-align:center;margin-top:20px;">🔙 Go Back</a>"
+  </div>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+/* Reset default browser margins */
+/* Background for home page */
+.home-bg {
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.navbar a {
+    margin-right: 15px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0,0,0,0.6)
+    font-weight: bold;
+    transition:0.3s;
+}
+.navbar a:hover {
+    backgroud: #3498db;
+}
+
+/* Home content */
+.home-content {
+    text-align: center;
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.6);  /* dark overlay behind text */
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+}
+.home-content h1 {
+    font-size: 3em;
+    color: #fff;
+}
+.home-content p {
+    font-size: 1.2em;
+    color #f1f1f1;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn:hover {
+    background: #2980b9;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    color: #333;
+}
+
+/* Center content */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Labels & Inputs */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Button */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Result page text */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
